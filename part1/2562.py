@@ -1,7 +1,11 @@
-nums = list(map(int, input().split()))
+import sys
+
+nums = list(sys.stdin.readline().split())
+print(nums)
 
 maxNum = nums[0]
 maxIndex = 0 
+
 
 for idx, num in enumerate(nums):
     if maxNum <= num:
