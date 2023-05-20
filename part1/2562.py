@@ -6,7 +6,6 @@ print(nums)
 maxNum = nums[0]
 maxIndex = 0 
 
-
 for idx, num in enumerate(nums):
     if maxNum <= num:
         maxNum = num

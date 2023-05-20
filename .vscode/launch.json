@@ -11,7 +11,7 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["<","input.tx1t",">","output.txt"]
+            "args": ["<input.txt", "output.txt" ]
         }
     ]
 }
