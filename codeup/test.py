@@ -51,12 +51,40 @@ while True:
     tempNum += 1"""
 
 #6080
-n, m = map(int,input().split)
+'''n, m = map(int, input().split())
 
 for i in range(1, n+1):
     for j in range(1, m+1):
-        c = i + ' ' + j
-        print(c)
+        print(f"{i} {j}")'''
+
+#6082
+'''n = int(input())
+
+for i in range(1, n+1):
+    if i%10==3 or i%10==6 or i%10==9:
+        print('X',end=' ')
+    else:
+        print(i,end=' ')'''
+
+#6083
+'''r, g, b = map(int, input().split())
+cnt=0
+
+for rgb_r in range(0, r):
+    for rgb_g in range(0, g):
+        for rgb_b in range(0, b):
+            print(f"{rgb_r} {rgb_g} {rgb_b}")
+            cnt += 1
+
+print(cnt)'''
+
+#6084
+hz, bit, ch, s = map(int, input().split())
+
+mb = 8*1024*1024
+result = round(hz*bit*ch*s/mb, 1)
+print(result, end=" MB")
+
 
 
 
