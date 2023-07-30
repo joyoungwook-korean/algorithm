@@ -1,27 +1,27 @@
 # 덩치
 # https://www.acmicpc.net/problem/7568
-import sys
+
+
+def calculate_rank(data):
+    ranks = [] 
+
+    for i in range(len(data)):
+        rank = 1 
+        for j in range(len(data)):
+          
+            if data[i][0] < data[j][0] and data[i][1] < data[j][1]:
+                rank += 1
+        ranks.append(rank)
+
+    return ranks
 
 n = int(input())
-input_values = [list(map(int,input().split())) for _ in range(n)]
-
-sorted_input_values_height = sorted(input_values, key=lambda x: x[0], reverse=True)
-sorted_input_values_weight = sorted(input_values, key=lambda x: x[1], reverse=True) 
-
-
-result = []
-tmp_k =0
-while tmp_k != n:
-    for i in range(n):
-     if sorted_input_values_height[i] == sorted_input_values_weight[i]:
-        result.append(i+1)
-     else:
-        tmp_k = i + 1
-        while sorted_input_values_height[i][1] > sorted_input_values_weight[tmp_k][1]:
-            result.append(i+1)
-            tmp_k += 1
+data = [] 
+for _ in range(n):
+    weight, height = map(int, input().split())
+    data.append((weight, height))
 
 
-print(result)          
+ranks = calculate_rank(data)
 
-    
+print(*ranks)
