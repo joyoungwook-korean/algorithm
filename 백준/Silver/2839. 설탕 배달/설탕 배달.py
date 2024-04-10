@@ -1,16 +1,17 @@
 def solve(n):
-  dp = [float('inf')] * (n + 1)
-  dp[0] = 0
 
-  for i in range(3, n + 1):
-    dp[i] = min(dp[i - 3] + 1, dp[i - 5] + 1)
+    result = 0
+    if n == 0:
+        return -1
+    while n >= 0:
+        if n % 5 == 0:
+            result += n / 5
+            return result
+        n -= 3
+        result += 1
 
-  return dp[n]
+    return -1
+
 
 n = int(input())
-result = solve(n)
-
-if result == float('inf'):
-  print(-1)
-else:
-  print(result)
+print(int(solve(n)))
