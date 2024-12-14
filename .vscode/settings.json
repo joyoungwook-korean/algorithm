@@ -1,4 +1,6 @@
 {
     "terminal.integrated.automationProfile.windows": "${env:windir}\\System32\\cmd.exe",
-    "BOJ.author": "siosio0915"
+    "BOJ.author": "siosio0915",
+    "editor.fontFamily": "Fira Code, monospace",
+    "editor.fontLigatures": true
 }
