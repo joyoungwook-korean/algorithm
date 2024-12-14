@@ -1,3 +1,4 @@
 {
-    "terminal.integrated.automationProfile.windows": "${env:windir}\\System32\\cmd.exe"
+    "terminal.integrated.automationProfile.windows": "${env:windir}\\System32\\cmd.exe",
+    "BOJ.author": "siosio0915"
 }
