@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-          token: ${{ secrets.VSC }}
+          token: ${{ secrets.GH_TOKEN }}
       - name: Get List of Not Filled Markdown Files
         id: getfile
         run: |-
