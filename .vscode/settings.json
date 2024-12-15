@@ -3,6 +3,5 @@
   "BOJ.author": "siosio0915",
   "editor.fontFamily": "Fira Code, monospace",
   "editor.fontLigatures": true,
-  "python.formatting.provider": "black",
   "editor.formatOnSave": true
 }
