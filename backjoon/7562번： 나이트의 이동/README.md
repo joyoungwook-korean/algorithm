@@ -1,9 +1,8 @@
 # 7562번: 나이트의 이동 - <img src="https://static.solved.ac/tier_small/10.svg" style="height:20px" /> Silver I
 
 <!-- performance -->
-
-<!-- 문제 제출 후 깃허브에 푸시를 했을 때 제출한 코드의 성능이 입력될 공간입니다.-->
-
+### 성능 요약
+메모리: 34952 KB, 시간: 1008 ms
 <!-- end -->
 
 ## 문제
