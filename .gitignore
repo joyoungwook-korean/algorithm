@@ -1,3 +1,27 @@
 *.txt
 input.txt
 output.txt
+
+
+# C++ 빌드 출력 파일
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.class
+
+# Code Runner 출력 파일 (빌드 시 실행 파일 이름)
+*/*.exe
+*/*.out
+
+# 기타 빌드 관련 파일
+*.log
+*.obj
+*.pch
+*.pdb
+
+# macOS 시스템 파일
+.DS_Store
