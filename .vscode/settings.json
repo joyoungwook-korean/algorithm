@@ -1,7 +1,19 @@
 {
-  "terminal.integrated.automationProfile.windows": "${env:windir}\\System32\\cmd.exe",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.profiles.osx": {
+      "zsh": {
+          "path": "/bin/zsh"
+      },
+      "bash": {
+          "path": "/bin/bash"
+      },
+      "fish": {
+          "path": "/usr/local/bin/fish"
+      }
+  },
   "BOJ.author": "siosio0915",
   "editor.fontFamily": "Fira Code, monospace",
   "editor.fontLigatures": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "BOJ.extension": "cpp"
 }
