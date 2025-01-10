@@ -74,10 +74,11 @@ tempCodeRunnerFile.cpp
 # VSCode specific
 .vscode/
 *.dSYM/
-*.txt*.exe
+*.txt
+*.exe
 *.exec
 
-
+# Ignore all files without extension (Unix executables)
 *
 !*.*
 !*/
