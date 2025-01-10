@@ -3,7 +3,6 @@
 using namespace std;
 
 void recusion(vector<vector<char>> &table, int now_num, int start_y, int start_x, int target_num){
-    // 기본 삼각형 그리기 (N=3일 때의 패턴)
     if (now_num == 3) {
         table[start_y][start_x] = '*';
         table[start_y + 1][start_x - 1] = '*';
@@ -16,11 +15,8 @@ void recusion(vector<vector<char>> &table, int now_num, int start_y, int start_x
 
     int next_height = now_num / 2;
     
-    // 위쪽 삼각형
     recusion(table, next_height, start_y, start_x, target_num);
-    // 왼쪽 아래 삼각형
     recusion(table, next_height, start_y + next_height, start_x - next_height, target_num);
-    // 오른쪽 아래 삼각형
     recusion(table, next_height, start_y + next_height, start_x + next_height, target_num);
 }
 
