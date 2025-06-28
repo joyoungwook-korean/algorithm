@@ -1,4 +1,10 @@
 {
   "code-runner.runInTerminal": true,
-  "terminal.integrated.inheritEnv": true
+  "terminal.integrated.inheritEnv": true,
+  "files.associations": {
+    "vector": "cpp",
+    "iostream": "cpp",
+    "deque": "cpp",
+    "string": "cpp"
+  }
 }
