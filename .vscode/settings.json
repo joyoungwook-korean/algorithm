@@ -5,6 +5,17 @@
     "vector": "cpp",
     "iostream": "cpp",
     "deque": "cpp",
-    "string": "cpp"
+    "string": "cpp",
+    "__locale": "cpp",
+    "locale": "cpp",
+    "__hash_table": "cpp",
+    "__split_buffer": "cpp",
+    "array": "cpp",
+    "bitset": "cpp",
+    "initializer_list": "cpp",
+    "queue": "cpp",
+    "stack": "cpp",
+    "string_view": "cpp",
+    "unordered_map": "cpp"
   }
 }
